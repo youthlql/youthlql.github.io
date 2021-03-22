@@ -1,0 +1,18 @@
+# 允许所有用户代理的浏览器爬虫进行访问（爬取数据）
+User-agent: *
+
+# 不允许访问的内容
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /js/
+Disallow: /css/
+Disallow: /*.js
+Disallow: /*.css
+
+Sitemap: http://youthlql.github.io/sitemap.xml
+Sitemap: http://youthlql.github.io/baidusitemap.xml
+Sitemap: http://youthlql.gitee.io/sitemap.xml
+Sitemap: http://youthlql.gitee.io/baidusitemap.xml
+Sitemap: http://imlql.cn/sitemap.xml
+Sitemap: http://imlql.cn/baidusitemap.xml
+
