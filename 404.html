@@ -54,7 +54,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2021-03-22 19:55:04'
+  postUpdate: '2021-03-23 21:52:43'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -169,7 +169,7 @@
           }
         })
 
-        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 60/(60*24))
         generateHtml(twikooArray)
       }).catch(function (err) {
         const $dom = document.querySelector('#card-newest-comments .aside-list')
