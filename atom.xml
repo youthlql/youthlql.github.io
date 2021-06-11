@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Youth的时光录</title>
+  <icon>https://imlql.cn/icon.png</icon>
+  <subtitle>此间的少年</subtitle>
+  <link href="https://imlql.cn/atom.xml" rel="self"/>
+  
+  <link href="https://imlql.cn/"/>
+  <updated>2021-06-07T09:34:25.826Z</updated>
+  <id>https://imlql.cn/</id>
+  
+  <author>
+    <name>youthlql</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>设计模式-01.设计思想</title>
+    <link href="https://imlql.cn/post/c3dcce5d.html"/>
+    <id>https://imlql.cn/post/c3dcce5d.html</id>
+    <published>2021-06-07T09:21:58.000Z</published>
+    <updated>2021-06-07T09:34:25.826Z</updated>
+    
+    
+    <summary type="html">设计模式第一部分-常用设计思想。</summary>
+    
+    
+    
+    <category term="设计模式" scheme="https://imlql.cn/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="01.设计思想" scheme="https://imlql.cn/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/01-%E8%AE%BE%E8%AE%A1%E6%80%9D%E6%83%B3/"/>
+    
+    
+    <category term="设计模式" scheme="https://imlql.cn/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="设计思想" scheme="https://imlql.cn/tags/%E8%AE%BE%E8%AE%A1%E6%80%9D%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的校招-不完全知识点整理</title>
+    <link href="https://imlql.cn/post/5df2d017.html"/>
+    <id>https://imlql.cn/post/5df2d017.html</id>
+    <published>2021-04-22T06:21:58.000Z</published>
+    <updated>2021-04-28T10:26:54.548Z</updated>
+    
+    
+    <summary type="html">如题，一部分的整理【三万字】，具体的看文章</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://imlql.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="面试" scheme="https://imlql.cn/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+    <category term="校招" scheme="https://imlql.cn/tags/%E6%A0%A1%E6%8B%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Netty入门-第三话</title>
+    <link href="https://imlql.cn/post/429acc6d.html"/>
+    <id>https://imlql.cn/post/429acc6d.html</id>
+    <published>2021-04-21T09:38:58.000Z</published>
+    <updated>2021-04-21T09:48:07.675Z</updated>
+    
+    
+    <summary type="html">对前面两话一些迷惑的点进行细说，讲解handler调用机制，TCP粘包，以及用netty写一个十分简单的RPC。</summary>
+    
+    
+    
+    <category term="Netty" scheme="https://imlql.cn/categories/Netty/"/>
+    
+    <category term="入门" scheme="https://imlql.cn/categories/Netty/%E5%85%A5%E9%97%A8/"/>
+    
+    
+    <category term="Netty" scheme="https://imlql.cn/tags/Netty/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Netty入门-第二话</title>
+    <link href="https://imlql.cn/post/f846f3f.html"/>
+    <id>https://imlql.cn/post/f846f3f.html</id>
+    <published>2021-04-15T06:21:58.000Z</published>
+    <updated>2021-04-21T09:01:51.607Z</updated>
+    
+    
+    <summary type="html">对Netty的架构进行了解析，主要是Reactor设计模式的多种解决方案。同时讲解了Netty的核心模块组件。</summary>
+    
+    
+    
+    <category term="Netty" scheme="https://imlql.cn/categories/Netty/"/>
+    
+    <category term="入门" scheme="https://imlql.cn/categories/Netty/%E5%85%A5%E9%97%A8/"/>
+    
+    
+    <category term="Netty" scheme="https://imlql.cn/tags/Netty/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>操作系统-IO与零拷贝</title>
+    <link href="https://imlql.cn/post/e959db2e.html"/>
+    <id>https://imlql.cn/post/e959db2e.html</id>
+    <published>2021-04-08T07:21:58.000Z</published>
+    <updated>2021-04-08T08:15:49.934Z</updated>
+    
+    
+    <summary type="html">基本面试会问到的IO进行了详解，同时本篇文章也对面试以及平时工作中会看到的零拷贝进行了充分的解析。万字长文系列，读到就是赚到。</summary>
+    
+    
+    
+    <category term="操作系统" scheme="https://imlql.cn/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+    <category term="操作系统" scheme="https://imlql.cn/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="os" scheme="https://imlql.cn/tags/os/"/>
+    
+    <category term="IO" scheme="https://imlql.cn/tags/IO/"/>
+    
+    <category term="零拷贝" scheme="https://imlql.cn/tags/%E9%9B%B6%E6%8B%B7%E8%B4%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Netty入门-第一话</title>
+    <link href="https://imlql.cn/post/3f9283e7.html"/>
+    <id>https://imlql.cn/post/3f9283e7.html</id>
+    <published>2021-04-08T06:21:58.000Z</published>
+    <updated>2021-04-15T15:10:39.837Z</updated>
+    
+    
+    <summary type="html">第一话对BIO和NIO进行了讲解，为后续做准备。</summary>
+    
+    
+    
+    <category term="Netty" scheme="https://imlql.cn/categories/Netty/"/>
+    
+    <category term="入门" scheme="https://imlql.cn/categories/Netty/%E5%85%A5%E9%97%A8/"/>
+    
+    
+    <category term="Netty" scheme="https://imlql.cn/tags/Netty/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机网络-概述</title>
+    <link href="https://imlql.cn/post/be54bfd5.html"/>
+    <id>https://imlql.cn/post/be54bfd5.html</id>
+    <published>2021-04-03T06:21:58.000Z</published>
+    <updated>2021-04-03T06:46:14.938Z</updated>
+    
+    
+    <summary type="html">计算机网络-概述篇。</summary>
+    
+    
+    
+    <category term="计算机网络" scheme="https://imlql.cn/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="计算机网络" scheme="https://imlql.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网址收藏</title>
+    <link href="https://imlql.cn/post/89e81850.html"/>
+    <id>https://imlql.cn/post/89e81850.html</id>
+    <published>2021-03-25T13:21:58.000Z</published>
+    <updated>2021-03-25T13:36:53.672Z</updated>
+    
+    
+    <summary type="html">壁纸,前端素材,ui,字体等等网址收藏。</summary>
+    
+    
+    
+    <category term="生活" scheme="https://imlql.cn/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="随笔" scheme="https://imlql.cn/categories/%E7%94%9F%E6%B4%BB/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="网址收藏" scheme="https://imlql.cn/tags/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo搭建博客-butterfly主题新版教程</title>
+    <link href="https://imlql.cn/post/bb283ed3.html"/>
+    <id>https://imlql.cn/post/bb283ed3.html</id>
+    <published>2021-03-23T13:50:00.000Z</published>
+    <updated>2021-04-15T09:51:44.956Z</updated>
+    
+    
+    <summary type="html">Hexo-butterfly主题搭建博客详尽版</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://imlql.cn/categories/Hexo/"/>
+    
+    
+    <category term="博客教程" scheme="https://imlql.cn/tags/%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Hexo" scheme="https://imlql.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Apollo简单入门</title>
+    <link href="https://imlql.cn/post/10d32fba.html"/>
+    <id>https://imlql.cn/post/10d32fba.html</id>
+    <published>2020-12-29T03:31:58.000Z</published>
+    <updated>2021-04-03T06:46:14.937Z</updated>
+    
+    
+    <summary type="html">Apollo简单入门及和SpringBoot集成。</summary>
+    
+    
+    
+    <category term="分布式配置中心" scheme="https://imlql.cn/categories/%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83/"/>
+    
+    <category term="Apollo" scheme="https://imlql.cn/categories/%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83/Apollo/"/>
+    
+    
+    <category term="Apollo" scheme="https://imlql.cn/tags/Apollo/"/>
+    
+    <category term="分布式配置中心" scheme="https://imlql.cn/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM系列-第12章-垃圾回收器</title>
+    <link href="https://imlql.cn/post/7706d61d.html"/>
+    <id>https://imlql.cn/post/7706d61d.html</id>
+    <published>2020-11-19T10:33:24.000Z</published>
+    <updated>2021-04-03T06:46:14.937Z</updated>
+    
+    
+    <summary type="html">JVM系列-第12章-垃圾回收器。</summary>
+    
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/categories/JVM/"/>
+    
+    <category term="1.内存与垃圾回收篇" scheme="https://imlql.cn/categories/JVM/1-%E5%86%85%E5%AD%98%E4%B8%8E%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AF%87/"/>
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/tags/JVM/"/>
+    
+    <category term="虚拟机" scheme="https://imlql.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM系列-第11章-垃圾回收相关概念</title>
+    <link href="https://imlql.cn/post/4d401a8b.html"/>
+    <id>https://imlql.cn/post/4d401a8b.html</id>
+    <published>2020-11-17T04:33:24.000Z</published>
+    <updated>2021-03-21T09:23:29.012Z</updated>
+    
+    
+    <summary type="html">JVM系列-第11章-垃圾回收相关概念。</summary>
+    
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/categories/JVM/"/>
+    
+    <category term="1.内存与垃圾回收篇" scheme="https://imlql.cn/categories/JVM/1-%E5%86%85%E5%AD%98%E4%B8%8E%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AF%87/"/>
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/tags/JVM/"/>
+    
+    <category term="虚拟机" scheme="https://imlql.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM系列-第10章-垃圾回收概述和相关算法</title>
+    <link href="https://imlql.cn/post/d54daa0f.html"/>
+    <id>https://imlql.cn/post/d54daa0f.html</id>
+    <published>2020-11-16T10:14:02.000Z</published>
+    <updated>2021-03-21T09:23:24.240Z</updated>
+    
+    
+    <summary type="html">JVM系列-第10章-垃圾回收概述和相关算法。</summary>
+    
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/categories/JVM/"/>
+    
+    <category term="1.内存与垃圾回收篇" scheme="https://imlql.cn/categories/JVM/1-%E5%86%85%E5%AD%98%E4%B8%8E%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AF%87/"/>
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/tags/JVM/"/>
+    
+    <category term="虚拟机" scheme="https://imlql.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM系列-第9章-StringTable(字符串常量池)</title>
+    <link href="https://imlql.cn/post/ee2ba71e.html"/>
+    <id>https://imlql.cn/post/ee2ba71e.html</id>
+    <published>2020-11-16T04:38:02.000Z</published>
+    <updated>2021-03-21T09:23:19.914Z</updated>
+    
+    
+    <summary type="html">JVM系列-第9章-StringTable(字符串常量池)。</summary>
+    
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/categories/JVM/"/>
+    
+    <category term="1.内存与垃圾回收篇" scheme="https://imlql.cn/categories/JVM/1-%E5%86%85%E5%AD%98%E4%B8%8E%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AF%87/"/>
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/tags/JVM/"/>
+    
+    <category term="虚拟机" scheme="https://imlql.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM系列-第8章-执行引擎</title>
+    <link href="https://imlql.cn/post/408712f4.html"/>
+    <id>https://imlql.cn/post/408712f4.html</id>
+    <published>2020-11-15T11:48:42.000Z</published>
+    <updated>2021-03-21T09:23:14.608Z</updated>
+    
+    
+    <summary type="html">JVM系列-第8章-执行引擎。</summary>
+    
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/categories/JVM/"/>
+    
+    <category term="1.内存与垃圾回收篇" scheme="https://imlql.cn/categories/JVM/1-%E5%86%85%E5%AD%98%E4%B8%8E%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AF%87/"/>
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/tags/JVM/"/>
+    
+    <category term="虚拟机" scheme="https://imlql.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM系列-第7章-对象的实例化内存布局与访问定位</title>
+    <link href="https://imlql.cn/post/debff71a.html"/>
+    <id>https://imlql.cn/post/debff71a.html</id>
+    <published>2020-11-14T11:38:42.000Z</published>
+    <updated>2021-03-21T09:23:10.129Z</updated>
+    
+    
+    <summary type="html">JVM系列-第7章-对象的实例化内存布局与访问定位。</summary>
+    
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/categories/JVM/"/>
+    
+    <category term="1.内存与垃圾回收篇" scheme="https://imlql.cn/categories/JVM/1-%E5%86%85%E5%AD%98%E4%B8%8E%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AF%87/"/>
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/tags/JVM/"/>
+    
+    <category term="虚拟机" scheme="https://imlql.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM系列-第6章-方法区</title>
+    <link href="https://imlql.cn/post/136cd965.html"/>
+    <id>https://imlql.cn/post/136cd965.html</id>
+    <published>2020-11-13T11:38:42.000Z</published>
+    <updated>2021-03-21T09:23:04.379Z</updated>
+    
+    
+    <summary type="html">JVM系列-第6章-方法区。</summary>
+    
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/categories/JVM/"/>
+    
+    <category term="1.内存与垃圾回收篇" scheme="https://imlql.cn/categories/JVM/1-%E5%86%85%E5%AD%98%E4%B8%8E%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AF%87/"/>
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/tags/JVM/"/>
+    
+    <category term="虚拟机" scheme="https://imlql.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM系列-第5章-堆</title>
+    <link href="https://imlql.cn/post/50ac3a1c.html"/>
+    <id>https://imlql.cn/post/50ac3a1c.html</id>
+    <published>2020-11-11T12:38:42.000Z</published>
+    <updated>2021-03-21T09:16:29.957Z</updated>
+    
+    
+    <summary type="html">JVM系列-第5章-堆。</summary>
+    
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/categories/JVM/"/>
+    
+    <category term="1.内存与垃圾回收篇" scheme="https://imlql.cn/categories/JVM/1-%E5%86%85%E5%AD%98%E4%B8%8E%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AF%87/"/>
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/tags/JVM/"/>
+    
+    <category term="虚拟机" scheme="https://imlql.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM系列-第4章-虚拟机栈</title>
+    <link href="https://imlql.cn/post/5b1b6560.html"/>
+    <id>https://imlql.cn/post/5b1b6560.html</id>
+    <published>2020-11-10T02:38:42.000Z</published>
+    <updated>2021-04-21T09:58:31.779Z</updated>
+    
+    
+    <summary type="html">JVM系列-第4章-虚拟机栈。</summary>
+    
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/categories/JVM/"/>
+    
+    <category term="1.内存与垃圾回收篇" scheme="https://imlql.cn/categories/JVM/1-%E5%86%85%E5%AD%98%E4%B8%8E%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AF%87/"/>
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/tags/JVM/"/>
+    
+    <category term="虚拟机" scheme="https://imlql.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JVM系列-第3章-运行时数据区</title>
+    <link href="https://imlql.cn/post/a7ad3cab.html"/>
+    <id>https://imlql.cn/post/a7ad3cab.html</id>
+    <published>2020-11-09T07:38:42.000Z</published>
+    <updated>2021-03-21T09:16:21.427Z</updated>
+    
+    
+    <summary type="html">JVM系列-第3章-运行时数据区。</summary>
+    
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/categories/JVM/"/>
+    
+    <category term="1.内存与垃圾回收篇" scheme="https://imlql.cn/categories/JVM/1-%E5%86%85%E5%AD%98%E4%B8%8E%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AF%87/"/>
+    
+    
+    <category term="JVM" scheme="https://imlql.cn/tags/JVM/"/>
+    
+    <category term="虚拟机" scheme="https://imlql.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+</feed>
