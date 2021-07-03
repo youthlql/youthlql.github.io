@@ -6,7 +6,7 @@
   <link href="https://imlql.cn/atom.xml" rel="self"/>
   
   <link href="https://imlql.cn/"/>
-  <updated>2021-06-26T16:53:51.710Z</updated>
+  <updated>2021-07-03T16:23:22.043Z</updated>
   <id>https://imlql.cn/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>设计模式-04.02-结构型-门面&amp;组合&amp;享元</title>
+    <link href="https://imlql.cn/post/5ea604e0.html"/>
+    <id>https://imlql.cn/post/5ea604e0.html</id>
+    <published>2021-07-05T08:51:58.000Z</published>
+    <updated>2021-07-03T16:23:22.043Z</updated>
+    
+    
+    <summary type="html">对代理模式，门面模式，组合模式，享元模式这3个设计模式进行了比较详细的讲述。</summary>
+    
+    
+    
+    <category term="设计模式" scheme="https://imlql.cn/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="04.结构型" scheme="https://imlql.cn/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/04-%E7%BB%93%E6%9E%84%E5%9E%8B/"/>
+    
+    
+    <category term="设计模式" scheme="https://imlql.cn/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="门面模式" scheme="https://imlql.cn/tags/%E9%97%A8%E9%9D%A2%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="组合模式" scheme="https://imlql.cn/tags/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="享元模式" scheme="https://imlql.cn/tags/%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式-04.01-结构型-代理&amp;桥接&amp;装饰器&amp;适配器</title>
+    <link href="https://imlql.cn/post/926a065c.html"/>
+    <id>https://imlql.cn/post/926a065c.html</id>
+    <published>2021-07-03T16:51:58.000Z</published>
+    <updated>2021-07-03T16:23:22.046Z</updated>
+    
+    
+    <summary type="html">对代理模式，桥接模式，装饰器模式，适配器模式这4个模式进行了比较详细的讲述。其实学习设计模式主要是为了后序看源码</summary>
+    
+    
+    
+    <category term="设计模式" scheme="https://imlql.cn/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="04.结构型" scheme="https://imlql.cn/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/04-%E7%BB%93%E6%9E%84%E5%9E%8B/"/>
+    
+    
+    <category term="设计模式" scheme="https://imlql.cn/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="代理模式" scheme="https://imlql.cn/tags/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="桥接模式" scheme="https://imlql.cn/tags/%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="装饰器模式" scheme="https://imlql.cn/tags/%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="适配器模式" scheme="https://imlql.cn/tags/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>设计模式-03.02-创建型-工厂&amp;建造者&amp;原型</title>
@@ -406,52 +462,6 @@
     
     
     <summary type="html">JVM系列-第9章-StringTable(字符串常量池)。</summary>
-    
-    
-    
-    <category term="JVM" scheme="https://imlql.cn/categories/JVM/"/>
-    
-    <category term="1.内存与垃圾回收篇" scheme="https://imlql.cn/categories/JVM/1-%E5%86%85%E5%AD%98%E4%B8%8E%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AF%87/"/>
-    
-    
-    <category term="JVM" scheme="https://imlql.cn/tags/JVM/"/>
-    
-    <category term="虚拟机" scheme="https://imlql.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JVM系列-第8章-执行引擎</title>
-    <link href="https://imlql.cn/post/408712f4.html"/>
-    <id>https://imlql.cn/post/408712f4.html</id>
-    <published>2020-11-15T11:48:42.000Z</published>
-    <updated>2021-03-21T09:23:14.608Z</updated>
-    
-    
-    <summary type="html">JVM系列-第8章-执行引擎。</summary>
-    
-    
-    
-    <category term="JVM" scheme="https://imlql.cn/categories/JVM/"/>
-    
-    <category term="1.内存与垃圾回收篇" scheme="https://imlql.cn/categories/JVM/1-%E5%86%85%E5%AD%98%E4%B8%8E%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AF%87/"/>
-    
-    
-    <category term="JVM" scheme="https://imlql.cn/tags/JVM/"/>
-    
-    <category term="虚拟机" scheme="https://imlql.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JVM系列-第7章-对象的实例化内存布局与访问定位</title>
-    <link href="https://imlql.cn/post/debff71a.html"/>
-    <id>https://imlql.cn/post/debff71a.html</id>
-    <published>2020-11-14T11:38:42.000Z</published>
-    <updated>2021-03-21T09:23:10.129Z</updated>
-    
-    
-    <summary type="html">JVM系列-第7章-对象的实例化内存布局与访问定位。</summary>
     
     
     
