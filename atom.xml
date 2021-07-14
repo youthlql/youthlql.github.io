@@ -6,7 +6,7 @@
   <link href="https://imlql.cn/atom.xml" rel="self"/>
   
   <link href="https://imlql.cn/"/>
-  <updated>2021-07-03T16:23:22.043Z</updated>
+  <updated>2021-07-14T07:39:25.108Z</updated>
   <id>https://imlql.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>设计模式-05.01-行为型-观察者&amp;模板</title>
+    <link href="https://imlql.cn/post/dd09051e.html"/>
+    <id>https://imlql.cn/post/dd09051e.html</id>
+    <published>2021-07-14T08:51:58.000Z</published>
+    <updated>2021-07-14T07:39:25.108Z</updated>
+    
+    
+    <summary type="html">观察者模式，模板模式。很常用的两个模式</summary>
+    
+    
+    
+    <category term="设计模式" scheme="https://imlql.cn/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="05.行为型" scheme="https://imlql.cn/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/05-%E8%A1%8C%E4%B8%BA%E5%9E%8B/"/>
+    
+    
+    <category term="观察者模式" scheme="https://imlql.cn/tags/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="模板模式" scheme="https://imlql.cn/tags/%E6%A8%A1%E6%9D%BF%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>设计模式-04.02-结构型-门面&amp;组合&amp;享元</title>
@@ -439,29 +462,6 @@
     
     
     <summary type="html">JVM系列-第10章-垃圾回收概述和相关算法。</summary>
-    
-    
-    
-    <category term="JVM" scheme="https://imlql.cn/categories/JVM/"/>
-    
-    <category term="1.内存与垃圾回收篇" scheme="https://imlql.cn/categories/JVM/1-%E5%86%85%E5%AD%98%E4%B8%8E%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AF%87/"/>
-    
-    
-    <category term="JVM" scheme="https://imlql.cn/tags/JVM/"/>
-    
-    <category term="虚拟机" scheme="https://imlql.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JVM系列-第9章-StringTable(字符串常量池)</title>
-    <link href="https://imlql.cn/post/ee2ba71e.html"/>
-    <id>https://imlql.cn/post/ee2ba71e.html</id>
-    <published>2020-11-16T04:38:02.000Z</published>
-    <updated>2021-03-21T09:23:19.914Z</updated>
-    
-    
-    <summary type="html">JVM系列-第9章-StringTable(字符串常量池)。</summary>
     
     
     
