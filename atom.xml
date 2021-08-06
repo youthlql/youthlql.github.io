@@ -389,11 +389,32 @@
   </entry>
   
   <entry>
-    <title>网址收藏</title>
+    <title>网址收藏-技术类</title>
+    <link href="https://imlql.cn/post/757c9446.html"/>
+    <id>https://imlql.cn/post/757c9446.html</id>
+    <published>2021-03-26T13:21:58.000Z</published>
+    <updated>2021-08-06T11:48:28.621Z</updated>
+    
+    
+    <summary type="html">github一些好项目的收藏，还有其它跟技术相关的收藏，算是一个导航</summary>
+    
+    
+    
+    <category term="生活" scheme="https://imlql.cn/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="网址收藏" scheme="https://imlql.cn/categories/%E7%94%9F%E6%B4%BB/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F/"/>
+    
+    
+    <category term="网址收藏" scheme="https://imlql.cn/tags/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网址收藏-生活类</title>
     <link href="https://imlql.cn/post/89e81850.html"/>
     <id>https://imlql.cn/post/89e81850.html</id>
     <published>2021-03-25T13:21:58.000Z</published>
-    <updated>2021-03-25T13:36:53.672Z</updated>
+    <updated>2021-08-06T11:46:39.908Z</updated>
     
     
     <summary type="html">壁纸,前端素材,ui,字体等等网址收藏。</summary>
@@ -402,7 +423,7 @@
     
     <category term="生活" scheme="https://imlql.cn/categories/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="随笔" scheme="https://imlql.cn/categories/%E7%94%9F%E6%B4%BB/%E9%9A%8F%E7%AC%94/"/>
+    <category term="网址收藏" scheme="https://imlql.cn/categories/%E7%94%9F%E6%B4%BB/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F/"/>
     
     
     <category term="网址收藏" scheme="https://imlql.cn/tags/%E7%BD%91%E5%9D%80%E6%94%B6%E8%97%8F/"/>
@@ -450,29 +471,6 @@
     <category term="Apollo" scheme="https://imlql.cn/tags/Apollo/"/>
     
     <category term="分布式配置中心" scheme="https://imlql.cn/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JVM系列-第12章-垃圾回收器</title>
-    <link href="https://imlql.cn/post/7706d61d.html"/>
-    <id>https://imlql.cn/post/7706d61d.html</id>
-    <published>2020-11-19T10:33:24.000Z</published>
-    <updated>2021-04-03T06:46:14.937Z</updated>
-    
-    
-    <summary type="html">JVM系列-第12章-垃圾回收器。</summary>
-    
-    
-    
-    <category term="JVM" scheme="https://imlql.cn/categories/JVM/"/>
-    
-    <category term="1.内存与垃圾回收篇" scheme="https://imlql.cn/categories/JVM/1-%E5%86%85%E5%AD%98%E4%B8%8E%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E7%AF%87/"/>
-    
-    
-    <category term="JVM" scheme="https://imlql.cn/tags/JVM/"/>
-    
-    <category term="虚拟机" scheme="https://imlql.cn/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
   </entry>
   
