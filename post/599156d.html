@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://gitee.com/youthlql/randombg/raw/master/logo/spring.png">
 <meta property="article:published_time" content="2021-12-06T15:21:58.000Z">
-<meta property="article:modified_time" content="2021-12-22T15:29:10.404Z">
+<meta property="article:modified_time" content="2022-03-14T16:21:07.610Z">
 <meta property="article:author" content="youthlql">
 <meta property="article:tag" content="Spring源码">
 <meta name="twitter:card" content="summary">
@@ -60,7 +60,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2021-12-22 23:29:10'
+  postUpdate: '2022-03-15 00:21:07'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -150,7 +150,7 @@
     }
     detectApple()
     })(window)</script><link rel="stylesheet" href="https://npm.elemecdn.com/lql_static@latest/butterfly_static/css/ali_icon.css"><link rel="stylesheet" href="https://npm.elemecdn.com/lql_static@latest/butterfly_static/css/02-19-mogai.css"><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="风祈的时光录" type="application/atom+xml">
-</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://gitee.com/youthlql/randombg/raw/master/avatar/1.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">60</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">56</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">33</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-shouyex"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-zuixinwenzhang_huaban"></i><span> 找文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw iconfont icon-fenlei1"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw iconfont icon-biaoqian1"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw iconfont icon-shijianzhou"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-shenghuo"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/comments/"><i class="fa-fw iconfont icon-liaotian-04"></i><span> 留言板</span></a></li><li><a class="site-page child" href="/link/"><i class="fa-fw iconfont icon-lianjie"></i><span> 友人帐</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://youthlql.gitee.io/lql_nav/"><i class="fa-fw iconfont icon-daohang"></i><span> 导航站</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw iconfont icon-gerenzhongxin"></i><span> 关于笔者</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://gitee.com/youthlql/randombg/raw/master/logo/spring.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">风祈的时光录</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-shouyex"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-zuixinwenzhang_huaban"></i><span> 找文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw iconfont icon-fenlei1"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw iconfont icon-biaoqian1"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw iconfont icon-shijianzhou"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-shenghuo"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/comments/"><i class="fa-fw iconfont icon-liaotian-04"></i><span> 留言板</span></a></li><li><a class="site-page child" href="/link/"><i class="fa-fw iconfont icon-lianjie"></i><span> 友人帐</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://youthlql.gitee.io/lql_nav/"><i class="fa-fw iconfont icon-daohang"></i><span> 导航站</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw iconfont icon-gerenzhongxin"></i><span> 关于笔者</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Spring源码系列-第1章-Spring源码纵览</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-12-06T15:21:58.000Z" title="发表于 2021-12-06 23:21:58">2021-12-06</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-12-22T15:29:10.404Z" title="更新于 2021-12-22 23:29:10">2021-12-22</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Spring/">Spring</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Spring/%E6%BA%90%E7%A0%81V1/">源码V1</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">8k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>39分钟</span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="必读"><a href="#必读" class="headerlink" title="必读"></a>必读</h1><ol>
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://gitee.com/youthlql/randombg/raw/master/avatar/1.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">60</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">56</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">33</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-shouyex"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-zuixinwenzhang_huaban"></i><span> 找文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw iconfont icon-fenlei1"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw iconfont icon-biaoqian1"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw iconfont icon-shijianzhou"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-shenghuo"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/comments/"><i class="fa-fw iconfont icon-liaotian-04"></i><span> 留言板</span></a></li><li><a class="site-page child" href="/link/"><i class="fa-fw iconfont icon-lianjie"></i><span> 友人帐</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://youthlql.gitee.io/lql_nav/"><i class="fa-fw iconfont icon-daohang"></i><span> 导航站</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw iconfont icon-gerenzhongxin"></i><span> 关于笔者</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://gitee.com/youthlql/randombg/raw/master/logo/spring.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">风祈的时光录</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-shouyex"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-zuixinwenzhang_huaban"></i><span> 找文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw iconfont icon-fenlei1"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw iconfont icon-biaoqian1"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw iconfont icon-shijianzhou"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw iconfont icon-shenghuo"></i><span> 生活</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/comments/"><i class="fa-fw iconfont icon-liaotian-04"></i><span> 留言板</span></a></li><li><a class="site-page child" href="/link/"><i class="fa-fw iconfont icon-lianjie"></i><span> 友人帐</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://youthlql.gitee.io/lql_nav/"><i class="fa-fw iconfont icon-daohang"></i><span> 导航站</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw iconfont icon-gerenzhongxin"></i><span> 关于笔者</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Spring源码系列-第1章-Spring源码纵览</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-12-06T15:21:58.000Z" title="发表于 2021-12-06 23:21:58">2021-12-06</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-03-14T16:21:07.610Z" title="更新于 2022-03-15 00:21:07">2022-03-15</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Spring/">Spring</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Spring/%E6%BA%90%E7%A0%81V1/">源码V1</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">8k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>39分钟</span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="必读"><a href="#必读" class="headerlink" title="必读"></a>必读</h1><ol>
 <li>源码是循循渐进的，前面我会省略中间很多目前不需要深入的代码，所以会看起来代码比较少。省略的地方我会打上这样的标识</li>
 </ol>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// ...      </span></span><br><span class="line">或者</span><br><span class="line"><span class="comment">// ......</span></span><br></pre></td></tr></table></figure>
@@ -159,7 +159,7 @@
 <li>如果没打也不代表我没省略，可能是忘记了，不要看懵了。</li>
 </ol>
 <h1 id="第1章-Spring源码纵览"><a href="#第1章-Spring源码纵览" class="headerlink" title="第1章-Spring源码纵览"></a>第1章-Spring源码纵览</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>Spring源码纵览这一节，主要是先了解下Spring的一些核心东西，所以前后可能关联不是特别深，跳跃性比较大，往后看就行。</p>
-<h2 id="简单的继承关系图"><a href="#简单的继承关系图" class="headerlink" title="简单的继承关系图"></a>简单的继承关系图</h2><img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210926195844253.png" />
+<h2 id="简单的继承关系图"><a href="#简单的继承关系图" class="headerlink" title="简单的继承关系图"></a>简单的继承关系图</h2><img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210926195844253.png" />
 
 <ul>
 <li><p><strong>蓝色实线箭头</strong>是指继承关系</p>
@@ -189,10 +189,10 @@
 
 
 <h3 id="Resource资源"><a href="#Resource资源" class="headerlink" title="Resource资源"></a>Resource资源</h3><h4 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h4><p>快捷键：ctrl+F12 看类的方法</p>
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210926232957909.png"/>
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210926232957909.png"/>
 
 <h4 id="实现类"><a href="#实现类" class="headerlink" title="实现类"></a>实现类</h4><p>快捷键：ctrl+h 查看接口实现类</p>
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210926233308861.png"/>
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210926233308861.png"/>
 
 
 
@@ -224,7 +224,7 @@
 
 
 
-<h4 id="实现类-1"><a href="#实现类-1" class="headerlink" title="实现类"></a>实现类</h4><img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210926234527992.png" />
+<h4 id="实现类-1"><a href="#实现类-1" class="headerlink" title="实现类"></a>实现类</h4><img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210926234527992.png" />
 
 
 
@@ -241,7 +241,7 @@
 <blockquote>
 <p>源码分析小技巧：看源码时，我们可以先看一个类的接口继承关系，因为接口就是规范，大部分开源框架源码都是遵守这一规范的。</p>
 </blockquote>
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927103844753.png" />
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927103844753.png" />
 
 
 
@@ -254,14 +254,14 @@
 </ol>
 </li>
 </ol>
-<h4 id="AbstractApplicationContext"><a href="#AbstractApplicationContext" class="headerlink" title="AbstractApplicationContext"></a>AbstractApplicationContext</h4><img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927104922679.png" />
+<h4 id="AbstractApplicationContext"><a href="#AbstractApplicationContext" class="headerlink" title="AbstractApplicationContext"></a>AbstractApplicationContext</h4><img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927104922679.png" />
 
 <p>环境类的意思就是谁持有这个策略；这里就解释了上文说ResourceLoader是环境类接口</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 策略模式的环境类</span></span><br><span class="line"><span class="keyword">private</span> ResourcePatternResolver resourcePatternResolver;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">AbstractApplicationContext</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="keyword">this</span>.resourcePatternResolver = getResourcePatternResolver();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
 
-<h4 id="GenericApplicationContext"><a href="#GenericApplicationContext" class="headerlink" title="GenericApplicationContext"></a>GenericApplicationContext</h4><img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927105641446.png"/>
+<h4 id="GenericApplicationContext"><a href="#GenericApplicationContext" class="headerlink" title="GenericApplicationContext"></a>GenericApplicationContext</h4><img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927105641446.png"/>
 
 <p>这里组合了DefaultListableBeanFactory</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GenericApplicationContext</span> <span class="keyword">extends</span> <span class="title">AbstractApplicationContext</span> <span class="keyword">implements</span> <span class="title">BeanDefinitionRegistry</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">   <span class="keyword">private</span> <span class="keyword">final</span> DefaultListableBeanFactory beanFactory;</span><br><span class="line">   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -272,7 +272,7 @@
 
 
 
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927110806180.png"  />
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927110806180.png"  />
 
 <ol>
 <li>BeanDefinitionRegistry：Bean定义信息注册中心</li>
@@ -292,7 +292,7 @@
 <li>其实就是上面的那个beanDefinitionMap</li>
 </ol>
 </blockquote>
-<h3 id="注册BeanDefinition-1"><a href="#注册BeanDefinition-1" class="headerlink" title="注册BeanDefinition-1"></a>注册BeanDefinition-1</h3><h4 id="流程图-BeanDefinition注册流程"><a href="#流程图-BeanDefinition注册流程" class="headerlink" title="流程图-BeanDefinition注册流程"></a>流程图-BeanDefinition注册流程</h4><img src="https://unpkg.zhimg.com/youthlql@1.0.7/spring-sourcecode-v1/flow_chart/Spring%E6%BA%90%E7%A0%81-BeanDefinition%E6%B3%A8%E5%86%8C%E6%B5%81%E7%A8%8B.png">
+<h3 id="注册BeanDefinition-1"><a href="#注册BeanDefinition-1" class="headerlink" title="注册BeanDefinition-1"></a>注册BeanDefinition-1</h3><h4 id="流程图-BeanDefinition注册流程"><a href="#流程图-BeanDefinition注册流程" class="headerlink" title="流程图-BeanDefinition注册流程"></a>流程图-BeanDefinition注册流程</h4><img src="https://img.imlql.cn/youthlql@1.0.7/spring-sourcecode-v1/flow_chart/Spring%E6%BA%90%E7%A0%81-BeanDefinition%E6%B3%A8%E5%86%8C%E6%B5%81%E7%A8%8B.png">
 
 <ul>
 <li>我们要看BeanDefinition是何时被放入到beanDefinitionMap，只需要在DefaultListableBeanFactory用到<code>beanDefinitionMap.put()</code>的地方打个断点。</li>
@@ -304,7 +304,7 @@
 
 
 
-<h4 id="Debug调用栈"><a href="#Debug调用栈" class="headerlink" title="Debug调用栈"></a>Debug调用栈</h4><img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927142317864.png" />
+<h4 id="Debug调用栈"><a href="#Debug调用栈" class="headerlink" title="Debug调用栈"></a>Debug调用栈</h4><img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927142317864.png" />
 
 <blockquote>
 <p>调用栈的调用顺序已经非常清楚了，可以把图放大一点看，下面只说一些必要的信息。</p>
@@ -360,7 +360,7 @@
 <li>还有一个debug的猜测方向，想要注册BeanDefinition肯定要new，我们可以直接在AbstractBeanDefinition这个抽象父类的构造函数打断点，我们不知道会走哪个构造函数，所以给三个构造函数都打断点。</li>
 <li>下面就是打完断点之后，运行MainTest测试类后的调用栈</li>
 </ul>
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927172855410.png"/>
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927172855410.png"/>
 
 
 
@@ -380,7 +380,7 @@
 <blockquote>
 <p>至此结束，上面的都不是很难，顺着调用栈就能看懂。</p>
 </blockquote>
-<h3 id="ApplicationContext接口功能"><a href="#ApplicationContext接口功能" class="headerlink" title="ApplicationContext接口功能"></a>ApplicationContext接口功能</h3><img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927175207106.png" />
+<h3 id="ApplicationContext接口功能"><a href="#ApplicationContext接口功能" class="headerlink" title="ApplicationContext接口功能"></a>ApplicationContext接口功能</h3><img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927175207106.png" />
 
 <ol>
 <li>ioc事件派发器</li>
@@ -401,10 +401,10 @@
 <li>注释的大致意思是：Aware是一个标记性的超接口（顶级接口），指示了一个Bean有资格通过回调方法的形式获取Spring容器底层组件。实际回调方法被定义在每一个子接口中，而且通常一个子接口只包含一个接口一个参数并且返回值为void的方法。</li>
 <li>说白了：只要实现了Aware子接口的Bean都能获取到一个Spring底层组件。</li>
 </ol>
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927191112023.png" />
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927191112023.png" />
 
 <p>比如实现了ApplicationContextAware接口，实现它的方法，就能通过回调机制拿到ApplicationContext</p>
-<h4 id="创建Person对象"><a href="#创建Person对象" class="headerlink" title="创建Person对象"></a>创建Person对象</h4><h5 id="流程图-Bean对象创建流程"><a href="#流程图-Bean对象创建流程" class="headerlink" title="流程图-Bean对象创建流程"></a>流程图-Bean对象创建流程</h5><img src="https://unpkg.zhimg.com/youthlql@1.0.7/spring-sourcecode-v1/flow_chart/Spring%E6%BA%90%E7%A0%81-Bean%E5%AF%B9%E8%B1%A1%E5%88%9B%E5%BB%BA%E6%B5%81%E7%A8%8B.png">
+<h4 id="创建Person对象"><a href="#创建Person对象" class="headerlink" title="创建Person对象"></a>创建Person对象</h4><h5 id="流程图-Bean对象创建流程"><a href="#流程图-Bean对象创建流程" class="headerlink" title="流程图-Bean对象创建流程"></a>流程图-Bean对象创建流程</h5><img src="https://img.imlql.cn/youthlql@1.0.7/spring-sourcecode-v1/flow_chart/Spring%E6%BA%90%E7%A0%81-Bean%E5%AF%B9%E8%B1%A1%E5%88%9B%E5%BB%BA%E6%B5%81%E7%A8%8B.png">
 
 <h5 id="Debug调用栈-2"><a href="#Debug调用栈-2" class="headerlink" title="Debug调用栈"></a>Debug调用栈</h5><p>为了知道Aware的原理，我们给上面的pos_1和pos_2位置打上断点，看下是怎么进来的</p>
 <p><strong>Person</strong></p>
@@ -420,7 +420,7 @@
 
 
 
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927200211334.png" />
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927200211334.png" />
 
 <ol>
 <li>有一些一样的东西不再赘述</li>
@@ -446,7 +446,7 @@
 
 
 
-<h4 id="Aware回调原理"><a href="#Aware回调原理" class="headerlink" title="Aware回调原理"></a>Aware回调原理</h4><h5 id="Debug调用栈-3"><a href="#Debug调用栈-3" class="headerlink" title="Debug调用栈"></a>Debug调用栈</h5><img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927230734973.png"/>
+<h4 id="Aware回调原理"><a href="#Aware回调原理" class="headerlink" title="Aware回调原理"></a>Aware回调原理</h4><h5 id="Debug调用栈-3"><a href="#Debug调用栈-3" class="headerlink" title="Debug调用栈"></a>Debug调用栈</h5><img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210927230734973.png"/>
 
 
 
@@ -471,7 +471,7 @@
 
 
 <p>为了知道属性赋值的时机，这里要给setXXX方法打断点，也就是上面的pos_1和pos_2位置打断点。</p>
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928113235852.png" />
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928113235852.png" />
 
 
 
@@ -479,25 +479,25 @@
 <h3 id="AbstractAutowireCapableBeanFactory-doCreateBean-1"><a href="#AbstractAutowireCapableBeanFactory-doCreateBean-1" class="headerlink" title="AbstractAutowireCapableBeanFactory#doCreateBean()"></a>AbstractAutowireCapableBeanFactory#doCreateBean()</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">protected</span> Object <span class="title">doCreateBean</span><span class="params">(String beanName, RootBeanDefinition mbd, <span class="meta">@Nullable</span> Object[] args)</span></span></span><br><span class="line"><span class="function">		<span class="keyword">throws</span> BeanCreationException </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// Instantiate the bean.  这里面封装好了真正的Person对象</span></span><br><span class="line">	BeanWrapper instanceWrapper = <span class="keyword">null</span>;</span><br><span class="line">	<span class="keyword">if</span> (mbd.isSingleton()) &#123;</span><br><span class="line">		instanceWrapper = <span class="keyword">this</span>.factoryBeanInstanceCache.remove(beanName);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> (instanceWrapper == <span class="keyword">null</span>) &#123;</span><br><span class="line">		<span class="comment">//创建Bean的实例,默认使用无参构造器创建的对象</span></span><br><span class="line">		instanceWrapper = createBeanInstance(beanName, mbd, args);</span><br><span class="line">	&#125;</span><br><span class="line">       </span><br><span class="line">	<span class="comment">//......</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">// Initialize the bean instance.</span></span><br><span class="line">	Object exposedObject = bean;</span><br><span class="line">	<span class="keyword">try</span> &#123;</span><br><span class="line">		populateBean(beanName, mbd, instanceWrapper); <span class="comment">//给创建好的对象每个属性进行赋值</span></span><br><span class="line">		exposedObject = initializeBean(beanName, exposedObject, mbd);<span class="comment">//初始化bean</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> exposedObject;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>我们看到此时，Person的name属性还是null</p>
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928114746618.png" />
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928114746618.png" />
 
 
 
 <h3 id="AbstractAutowireCapableBeanFactory-populateBean-属性赋值"><a href="#AbstractAutowireCapableBeanFactory-populateBean-属性赋值" class="headerlink" title="AbstractAutowireCapableBeanFactory#populateBean()属性赋值"></a>AbstractAutowireCapableBeanFactory#populateBean()属性赋值</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">populateBean</span><span class="params">(String beanName, RootBeanDefinition mbd, <span class="meta">@Nullable</span> BeanWrapper bw)</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 这一步就是拿到属性值</span></span><br><span class="line">    PropertyValues pvs = (mbd.hasPropertyValues() ? mbd.getPropertyValues() : <span class="keyword">null</span>);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// ......      </span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (pvs != <span class="keyword">null</span>) &#123;</span><br><span class="line">        applyPropertyValues(beanName, mbd, bw, pvs); <span class="comment">//xml版的所有配置会来到这里给属性赋值</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>这里拿到属性值</p>
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928115110820.png" />
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928115110820.png" />
 
 
 
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">applyPropertyValues</span><span class="params">(String beanName, BeanDefinition mbd, BeanWrapper bw, PropertyValues pvs)</span> </span>&#123;</span><br><span class="line">    <span class="comment">// ......</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// Set our (possibly massaged) deep copy.</span></span><br><span class="line">    <span class="keyword">try</span> &#123; <span class="comment">//深拷贝所有PropertyValue应该对应的属性</span></span><br><span class="line">        bw.setPropertyValues(<span class="keyword">new</span> MutablePropertyValues(deepCopy));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928115352416.png"/>
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928115352416.png"/>
 
 
 
 <p>bw就是上面说的 =&gt; 里面封装好了真正的Person对象</p>
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928115702735.png"/>
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928115702735.png"/>
 
 
 
@@ -506,7 +506,7 @@
 
 
 <p>这里就是一层一层调，不重要跳过。</p>
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928120016581.png" />
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928120016581.png" />
 
 
 
@@ -514,7 +514,7 @@
 
 
 
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928141536440.png"/>
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928141536440.png"/>
 
 
 
@@ -524,10 +524,10 @@
 
 
 
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928143301161.png"/>
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928143301161.png"/>
 
 <p>最后就是反射走到了我们的<code>Person#setName(String name)</code></p>
-<h3 id="再来看看messageSource何时赋值"><a href="#再来看看messageSource何时赋值" class="headerlink" title="再来看看messageSource何时赋值"></a>再来看看messageSource何时赋值</h3><img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928143910461.png"  />
+<h3 id="再来看看messageSource何时赋值"><a href="#再来看看messageSource何时赋值" class="headerlink" title="再来看看messageSource何时赋值"></a>再来看看messageSource何时赋值</h3><img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928143910461.png"  />
 
 
 
@@ -547,12 +547,12 @@
 
 
 <p>老样子，只看不一样的调用栈</p>
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928151825366.png"/>
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928151825366.png"/>
 
 <h3 id="AbstractAutowireCapableBeanFactory-populateBean"><a href="#AbstractAutowireCapableBeanFactory-populateBean" class="headerlink" title="AbstractAutowireCapableBeanFactory#populateBean()"></a>AbstractAutowireCapableBeanFactory#populateBean()</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">populateBean</span><span class="params">(String beanName, RootBeanDefinition mbd, <span class="meta">@Nullable</span> BeanWrapper bw)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">   <span class="comment">// ......</span></span><br><span class="line">   PropertyDescriptor[] filteredPds = <span class="keyword">null</span>;</span><br><span class="line">   <span class="keyword">if</span> (hasInstAwareBpps) &#123;</span><br><span class="line">      <span class="keyword">if</span> (pvs == <span class="keyword">null</span>) &#123;</span><br><span class="line">         pvs = mbd.getPropertyValues();</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">for</span> (InstantiationAwareBeanPostProcessor bp : getBeanPostProcessorCache().instantiationAware) &#123;</span><br><span class="line">         <span class="comment">// 注解版的属性赋值会走这里</span></span><br><span class="line">         PropertyValues pvsToUse = bp.postProcessProperties(pvs, bw.getWrappedInstance(), beanName);</span><br><span class="line">         <span class="keyword">if</span> (pvsToUse == <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">if</span> (filteredPds == <span class="keyword">null</span>) &#123;</span><br><span class="line">               filteredPds = filterPropertyDescriptorsForDependencyCheck(bw, mbd.allowCaching);</span><br><span class="line">            &#125;</span><br><span class="line">            pvsToUse = bp.postProcessPropertyValues(pvs, filteredPds, bw.getWrappedInstance(), beanName);</span><br><span class="line">            <span class="keyword">if</span> (pvsToUse == <span class="keyword">null</span>) &#123;</span><br><span class="line">               <span class="keyword">return</span>;</span><br><span class="line">            &#125;</span><br><span class="line">         &#125;</span><br><span class="line">         pvs = pvsToUse;</span><br><span class="line">      &#125;</span><br><span class="line">   &#125;</span><br><span class="line">   <span class="keyword">if</span> (needsDepCheck) &#123;</span><br><span class="line">      <span class="keyword">if</span> (filteredPds == <span class="keyword">null</span>) &#123;</span><br><span class="line">         filteredPds = filterPropertyDescriptorsForDependencyCheck(bw, mbd.allowCaching);</span><br><span class="line">      &#125;</span><br><span class="line">      checkDependencies(beanName, mbd, filteredPds, pvs);</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   <span class="keyword">if</span> (pvs != <span class="keyword">null</span>) &#123;</span><br><span class="line">      applyPropertyValues(beanName, mbd, bw, pvs); <span class="comment">//xml版的所有配置会来到这里给属性赋值</span></span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>这里有一个非常著名的后置处理器，<code>AutowiredAnnotationBeanPostProcessor</code>自动装配注解后置处理器，顾名思义就是用来处理@Autowired注解自动装配的。</p>
-<img src="https://unpkg.zhimg.com/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928153428691.png" />
+<img src="https://img.imlql.cn/youthlql@1.0.6/spring-sourcecode-v1/chapter_01/image-20210928153428691.png" />
 
 
 
